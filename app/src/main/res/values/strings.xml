@@ -3,4 +3,6 @@
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="question_text">This application is a true beauty.</string>
+    <string name="correct_toast">Correct answer!</string>
+    <string name="incorrect_toast">Wrong answer...</string>
 </resources>
