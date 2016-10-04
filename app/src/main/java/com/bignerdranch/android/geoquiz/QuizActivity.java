@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -11,8 +12,8 @@ public class QuizActivity extends AppCompatActivity {
 
     private Button mButtonTrue;
     private Button mButtonFalse;
-    private Button mButtonNext;
-    private Button mButtonPrevious;
+    private ImageButton mButtonNext;
+    private ImageButton mButtonPrevious;
     private TextView mTextViewQuestion;
 
     private Question[] mQuestionBank = {
@@ -33,8 +34,8 @@ public class QuizActivity extends AppCompatActivity {
         //save references to the views in variables
         mButtonTrue = (Button) findViewById(R.id.true_button);
         mButtonFalse = (Button) findViewById(R.id.false_button);
-        mButtonNext = (Button) findViewById(R.id.next_button);
-        mButtonPrevious = (Button) findViewById(R.id.previous_button);
+        mButtonNext = (ImageButton) findViewById(R.id.next_button);
+        mButtonPrevious = (ImageButton) findViewById(R.id.previous_button);
         mTextViewQuestion = (TextView) findViewById(R.id.question_text_view);
 
         updateQuestion();
